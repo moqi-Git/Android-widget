@@ -7,7 +7,7 @@ some widget in java&amp;kotlin
 ![waveview](https://user-gold-cdn.xitu.io/2018/2/4/16160440001091b9?w=258&h=409&f=gif&s=746513)
 
 代码：  
-[Kotlin版](./src/kotlin/WaveView.kt)  
-[Java版](./src/Java/WaveView.java)
+[Kotlin版](https://github.com/moqi-Git/Android-widget/blob/master/src/kotlin/WaveView.kt)  
+[Java版](https://github.com/moqi-Git/Android-widget/tree/master/src/java/WaveView.java)
 
 ***
