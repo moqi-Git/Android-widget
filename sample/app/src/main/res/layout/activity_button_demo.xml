@@ -1,6 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-</android.support.constraint.ConstraintLayout>
+    <demo.moqi.sample.widget.BetterButton
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="展示按钮第一号"
+        android:gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        app:corners="20dp"
+        app:solid="#66ccff"
+        app:solidPressed="#44ccff"
+        android:textColor="#fff" />
+
+    <demo.moqi.sample.widget.BetterButton
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        app:solid="#fff"
+        app:solidPressed="#fff"
+        app:corners="10dp"
+        app:strokeWidth="1dp"
+        app:strokeColor="#66ccff"
+        app:strokeColorPressed="#0033ff"
+        android:text="展示按钮第二号"
+        android:gravity="center"
+        android:textColor="#66ccff"
+        app:textColorPressed="#0033ff"
+        />
+
+    <demo.moqi.sample.widget.BetterButton
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:text="删除"
+        android:textColor="#fff"
+        app:solid="#f00"
+        app:solidPressed="#f00"
+        app:radiusRightBottom="20dp"
+        app:radiusLeftTop="20dp"
+        app:clickAnim="scale"
+        />
+
+</LinearLayout>

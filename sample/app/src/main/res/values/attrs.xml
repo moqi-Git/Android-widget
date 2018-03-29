@@ -1,2 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+
+    <declare-styleable name="BetterButton">
+        <attr name="solid" format="color|reference"/>
+        <attr name="solidPressed" format="color|reference"/>
+        <attr name="strokeColor" format="color|reference"/>
+        <attr name="strokeWidth" format="dimension|reference"/>
+        <attr name="strokeColorPressed" format="color|reference"/>
+        <attr name="textColorPressed" format="color|reference"/>
+        <attr name="corners" format="dimension|reference"/>
+        <attr name="radiusLeftTop" format="dimension|reference"/>
+        <attr name="radiusRightTop" format="dimension|reference"/>
+        <attr name="radiusLeftBottom" format="dimension|reference"/>
+        <attr name="radiusRightBottom" format="dimension|reference"/>
+        <attr name="clickAnim" format="enum">
+            <enum name="scale" value="1"/>
+        </attr>
+    </declare-styleable>
+
+</resources>

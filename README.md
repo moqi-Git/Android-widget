@@ -11,3 +11,12 @@ some widget in java&amp;kotlin
 [Java版](https://github.com/moqi-Git/Android-widget/tree/master/src/java/WaveView.java)
 
 ***
+
+#### 二、BetterButton ：自定义样式按钮
+
+效果展示：
+
+![BetterButton](https://user-gold-cdn.xitu.io/2018/3/29/1626d9f4632d8cc6?w=260&h=465&f=gif&s=294547)
+
+代码：
+[Kotlin版](https://github.com/moqi-Git/Android-widget/blob/master/src/kotlin/BetterButton.kt) 

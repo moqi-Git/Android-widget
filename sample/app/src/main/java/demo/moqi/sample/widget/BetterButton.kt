@@ -1,4 +1,4 @@
-package demo.moqi.kotlinprojectdemo.widget
+package demo.moqi.sample.widget
 
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
@@ -11,7 +11,7 @@ import android.graphics.drawable.StateListDrawable
 import android.util.AttributeSet
 import android.view.MotionEvent
 import android.widget.TextView
-import demo.moqi.kotlinprojectdemo.R
+import demo.moqi.sample.R
 
 /** 自定义背景样式的 Button
  * Created by reol on 28/03/2018.
