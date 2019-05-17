@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".act.TaggedSeekBarDemo">
+
+    <com.faker.netease.tagedseekbar.TaggedSeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" />
+
+    <com.faker.netease.tagedseekbar.TaggedSeekBar
+        android:id="@+id/seekbar_custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        app:thumbColor="#FFF"
+        app:thumbRadius="5dp"
+        app:thumbStrokeWidth="7dp"
+        app:progressWidth="8dp"
+        app:progressCorner="8dp"
+        app:progress="30"
+        app:primaryColor="#BF70E0"
+        app:tagTextColor="#E6BF63"
+        app:tagTextSize="18sp"
+        app:tagIndicatorHeight="5dp"
+        app:tagHeight="24dp"
+        app:tagWidth="44dp"/>
+
+</LinearLayout>

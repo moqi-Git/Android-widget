@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TaggedSeekBar">
+        <attr name="progress" format="float"/>
+        <attr name="primaryColor" format="color|reference"/>
+        <attr name="emptyColor" format="color|reference"/>
+        <attr name="progressWidth" format="dimension|reference"/>
+        <attr name="progressCorner" format="dimension|reference"/>
+        <attr name="thumbColor" format="color|reference"/>
+        <attr name="thumbRadius" format="dimension|reference"/>
+        <attr name="thumbStrokeWidth" format="dimension|reference"/>
+        <attr name="tagRadius" format="dimension|reference"/>
+        <attr name="tagPadding" format="dimension|reference"/>
+        <attr name="tagWidth" format="dimension|reference"/>
+        <attr name="tagHeight" format="dimension|reference"/>
+        <attr name="tagIndicatorHeight" format="dimension|reference"/>
+        <attr name="tagTextColor" format="color|reference"/>
+        <attr name="tagTextSize" format="dimension|reference"/>
+        <attr name="tagCorner" format="dimension|reference"/>
+    </declare-styleable>
+</resources>
+

@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="demo.moqi.sample.MainActivity">
 
     <Button
         android:id="@+id/btnWaveView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         android:text="WAVE VIEW"/>
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/btnButtonDemo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Better Button"/>
+
+    <Button
+        android:id="@+id/btnTSBDemo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tagged_Seek_Bar"/>
+
+</LinearLayout>
